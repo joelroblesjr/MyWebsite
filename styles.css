@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    color: #0077b5;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (min-width: 768px) {
+    body {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+  
